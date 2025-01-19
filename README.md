@@ -8,7 +8,7 @@
 [Website Preview for Template 2](https://architectural-student-portfolio-2.vercel.app/)  
 [Github Link for Template 2](https://github.com/jugsidhu/Architectural-Student-Portfolio-2)
 
-This is a personal portfolio web application built using [Vite](https://vitejs.dev/). It showcases one's projects, skills, and contact information as a passionate architectural student.
+This is a personal portfolio web application built using [Vite](https://vitejs.dev/). It showcases one's , skills, and contact information as a passionate architectural student.
 
 ---
 
