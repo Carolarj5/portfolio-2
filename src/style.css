@@ -1,21 +1,21 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #f2e7dd;
+  color: #d9b99f;
   text-align: center;
 }
 
 header {
   padding: 20px;
-  background-color: #222;
-  color: white;
+  background-color: #d9b99f;
+  color: #f2e7dd;
 }
 
 #bio {
   margin-top: 10px;
   font-size: 16px;
-  color: #ccc;
+  color: #f2e7dd;
 }
 
 #links {
@@ -27,7 +27,7 @@ header {
 
 a {
   text-decoration: none;
-  color: #0073e6;
+  color: #d9b99f;
   font-weight: bold;
 }
 
@@ -39,7 +39,7 @@ a:hover {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  background: linear-gradient(45deg, #f2d6ce, #f2d6ce);
   color: white;
   cursor: pointer;
   font-size: 16px;
@@ -81,7 +81,7 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc00;
 }
 
 #description {
@@ -91,7 +91,7 @@ a:hover {
   color: #555;
   text-align: center;
   padding: 10px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
+  background-color: #f9f9f900;
+  border: 1px solid #cccccc00;
   border-radius: 5px;
 }

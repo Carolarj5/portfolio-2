@@ -15,9 +15,9 @@ Object.keys(data.contact).forEach((key) => {
 
 function populateModelButtons() {
   const modelPaths = [
-    { path: "3d_models/project1/model.obj", label: "Project 1" },
-    { path: "3d_models/project2/model.obj", label: "Project 2" },
-    { path: "3d_models/project3/model.obj", label: "Project 3" },
+    { path: "3d_models/project1/collage1", label: "Exquisite Cadavre" },
+    { path: "3d_models/project2/model.obj", label: "Critical Evaluation" },
+    { path: "3d_models/project3/model.obj", label: "Source" },
   ];
 
   const controls = document.getElementById("controls");

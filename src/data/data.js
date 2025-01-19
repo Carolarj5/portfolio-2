@@ -1,10 +1,9 @@
 export const data = {
-  name: "John Doe",
-  bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+  name: "DSGN 363 PORTFOLIO",
+  bio: "By: Carola Ramirez",
   contact: {
-    email: "john.doe@gmail.com",
-    phone: "+12345678910",
-    linkedin: "https://www.linkedin.com/",
+    email: "carola.ramirez1@ucalgary.ca",
+    phone: "+9991274887",
     github: "https://www.github.com/",
   },
 };
