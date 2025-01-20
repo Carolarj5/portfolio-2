@@ -15,7 +15,7 @@ Object.keys(data.contact).forEach((key) => {
 
 function populateModelButtons() {
   const modelPaths = [
-    { path: "3d_models/project1/collage1", label: "Exquisite Cadavre" },
+    { path: "3d_models/project1/collage1", label: "Cadavre Exquis" },
     { path: "3d_models/project2/model.obj", label: "Project 2" },
     { path: "3d_models/project3/model.obj", label: "Project 3" },
   ];
@@ -33,13 +33,14 @@ function populateModelButtons() {
 
 function loadModel(modelPath, index) {
   const containerSelector = "#model-container";
+ 
 
   const container = document.querySelector(containerSelector);
   while (container.firstChild) {
     container.removeChild(container.firstChild);
   }
 
-  createThreeScene(containerSelector, modelPath);
+  //createThreeScene(containerSelector, modelPath);
 }
 
 populateModelButtons();
