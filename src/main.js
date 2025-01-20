@@ -25,6 +25,7 @@ function populateModelButtons() {
   modelPaths.forEach((model, index) => {
     const button = document.createElement("button");
     button.className = "project-btn";
+    
     button.textContent = model.label;
     button.onclick = () => loadModel(model.path, index);
     controls.appendChild(button);
